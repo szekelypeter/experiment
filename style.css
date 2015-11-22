@@ -34,13 +34,18 @@
 }
 
 .neighborhood-guides{
- background-color: #efefef;
+ background-color: #eee;
  border-bottom: 1px solid #dbdbdb;
+}
+.neighborhood-guides h1{
+ color: #393c3d;
+ font-size: 32px;
 }
 
 .neighborhood-guides h2{
  color: #393c3d;
  font-size: 20px;
+ margin-bottom: 50px;
 }
 
 .neighborhood-guides p{
@@ -63,18 +68,48 @@
 
 .jumbotron-introduction h1 {
   color: #fff;
-  font-size: 48px;  
+  font-size: 64px;  
   font-family: 'Shift', sans-serif;
   font-weight: bold;
 }
 
 .jumbotron-introduction p {
-  font-size: 18px;
+  font-size: 24px;
   color: #fff;
 }
+.containernormal{
+	position: relative;
+	padding: 50px 50px;
+}
+.containergrey{
+	position: relative;
+	padding: 50px 50px;
+	background-color: #eee;
+}
+ 
+ .containernormal h2{
+color:#000;
+font-size: 32px;
+font-weight: bold;	
+ }
+ .containernormal p{
+font-size: 18px;
+ color: #000;
+ }
+ 
+  .containergrey h2{
+color:#000;
+font-size: 32px;
+font-weight: bold;	
+ }
+ .containergrey p{
+font-size: 18px;
+ color: #000;
+ }
+
 /*****AboutTask*****/
 .jumbotron-abouttask{
-  background-image:url('subfolder/home.jpg');
+  background-image:url('subfolder/abouttask.jpg');
   height: 480px;
   background-repeat: no-repeat;
   background-size: cover;
