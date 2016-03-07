@@ -14,12 +14,6 @@
 <link rel=stylesheet href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
 <link rel=stylesheet href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
 
 <link rel=stylesheet href=cssmain.css> 
 <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript">
@@ -35,18 +29,7 @@
 </head>
 
 <body id=top> 
-<div class="carousel slide carousel-fade" data-ride="carousel">
 
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-        <div class="item active">
-        </div>
-        <div class="item">
-        </div>
-        <div class="item">
-        </div>
-    </div>
-</div>
 <div id=cssmenu class=align-center>
 <ul> 
 <li><a href='#body'>What is CARP?</a></li> 
@@ -56,11 +39,28 @@
 </div> 
 
 <div class="header text-center"> 
+
 	
 
 <div class=logoimage> <img class="logo slideanim2" src="content/logo.png" alt="CARP 3D logo" style="width:20%;height:20%;">
 </div> 
-
+<script language="JavaScript">
+			var i = 0;
+			var path = new Array();
+			 
+			path[0] = "content/first.jpg";
+			path[1] = "content/second.jpg";
+			path[2] = "content/third.jpg";
+			path[3] = "content/forth.jpg";
+			function swapImage()
+			{
+			   document.slide.src = path[i];
+			   if(i < path.length - 1) i++; else i = 0;
+			   setTimeout("swapImage()",3000);
+			}
+			window.onload=swapImage;
+		</script>
+			<img  name="slide" src="content/first.jpg"; align="right" style="border: 3px solid #fff; margin-right:4vw; middle;"/>
 <div class=subscribe> 
 
 <p style="color: #ffffff;">CARP 3D will launch soon! Don't miss it!</p> 
@@ -91,61 +91,45 @@
 </div> 
 
 <div id=body>
- 
+</div> 
 
-<div class=row style="background-color: #ffffff;"> 
+<div class=row> 
 
 <div class=col-xs-12> <h2></h2>
 </div>
 </div> 
 
-<div class=row id=details style="background-color: #ffffff;"> 
+<div class=row id=details> 
 
 <div class=col-xs-1>
 </div> 
 
-<div class="col-xs-6 "> <h1>What is CARP?</h1> <h4> What is CARP? </h4> <h4> CARP 3D is a cheap ($250), and rapid 3D printer, which operates out of the box, is maintenance-free, and available for everyone. Our goal is to create an affordable, yet fast 3D printer, with high printing quality, and large build volume. </h4> <h4> How did we achieve this? </h4> <h4> It is simple: we aimed for balance. Most 3D printers are either an overkill, with oversized timing belts, large motors, heavy extruder assembly, bulky and expensive linear technology, and overly complex solutions, OR go for the cheapest in everything, so they use the cheapest steppers, cheap electronics, no linear guides, etc. In our opinion none of the above are a good solution. The first option increases the price of the 3D printer, while the second compromises the printers build quality, or printing speed. </h4> <h4> We found a way to incorporate the best of everything. For example: our 3D printer isn't using expensive linear rails, nor wide timing belts, instead we reduced the load on them, allowing us to achieve high speed for a low price. The CARP 3D printer uses big, and strong steppers where it is necessary, and cost effective ones where they don't compromise the performance. We use custom 3D printer electronics, so it is more reliable than an off the shelf arduino based solution -like the common mega2560+ramps-, while it is also cheaper. Our mechanical structure is also simple. We are using as few parts as possible, most of them designed specifically for CARP (there are less than 30 different types of parts, including screws, washers, and nuts). This means that the CARP 3D printer is easy to manufacture, helping us to reduce labour costs. All of this made it possible for us to create one of the cheapest, yet reliable and fast 3D printer. </h4>
+<div class="col-xs-6 "> <h1>What is CARP?</h1> <h4> What is CARP? </h4> <h4> CARP 3D is a cheap, and rapid 3D printer, which operates out of the box, is maintenance-free, and available for everyone. Our goal was to create an affordable, yet fast 3D printer, with high printing quality, and big build volume. </h4> <h4> How did we achieve this? </h4> <h4> It is simple: we aimed for balance. Most 3D printers are either an overkill, with oversized timing belts, large motors, heavy extruder assembly, bulky and expensive linear technology, and overly complex solutions, OR go for the cheapest in everything, so they use the cheapest steppers, cheap electronics, no linear guides, etc. In our opinion none of the above are a good solution. The first option increases the price of the 3D printer, while the second compromises the printers build quality, or printing speed. </h4> <h4> We found a way to incorporate the best of everything. For example: our 3D printer isn't using expensive linear rails, nor wide timing belts, instead we reduced the load on them, allowing us to achieve high speed for a low price. The CARP 3D printer uses big, and strong steppers where it is necessary, and cost effective ones where they don't compromise the performance. We use custom 3D printer electronics, so it is more reliable than an arduino based solution -like ramps-, while it is also cheaper. Our mechanical structure is also simple. We are using as few parts as possible, most of them designed specifically for CARP (there are less than 30 different parts including screws, washers, and nuts). This means that the CARP 3D printer is easy to manufacture, helping us to reduce labour costs. All of this made it possible for us to create one of the cheapest, yet reliable and fast 3D printer. </h4>
 </div> 
 
-<div class="col-xs-4 "> <h1>CARP 3D</h1> <h4> Is user friendly</h4> <h4>Has a sleek, minimalistic design</h4> <h4>Is suitable both for beginners, and professionals</h4> <h4>Brings 3D printing closer to everyone, all around the world</h4> <h4>Solves the common problems of most desktop 3D printers</h4> <h4>Is extremely cheap</h4> <h4>Is fast</h4> <h1>CARP 3D is cheap and fast because </h1><h4>It has a light effector</h4><h4>It has low part count</h4><h4>We planned the supply chain carefully</h4><h4>We are using custom parts</h4>
+<div class="col-xs-4 "> <h1>CARP 3D</h1> <h4> Is user friendly</h4> <h4>Has a sleek, minimalistic design</h4> <h4>Is suitable both for beginners, and professionals</h4> <h4>Brings 3D printing closer to everyone, all around the world</h4> <h4>Solves the common problems of most desktop 3D printers</h4> <h4>Is extremely cheap</h4> <h4>Is fast</h4>
 </div>
 </div> 
 
-<div class=row style="background-color: #ffffff;"> 
+<div class=row> 
 
 <div class=col-xs-12> <h2></h2>
 </div>
 </div> 
-<div class="row text-center" style="margin-left:0px; background-color: #ffffff;"> <h1 style="color: #000000;">Follow us!</h1> 
 
-<div class=col-xs-2>
-</div> 
-
-<div class=col-xs-4> <a href="http://facebook.com/carp3d" target=_blank> <i class="fa fa-facebook-square fa-5x"></i> </a>
-</div> 
-
-<div class=col-xs-4> <a href="https://twitter.com/carp_3d" target=_blank> <i class="fa fa-twitter-square fa-5x"></i> </a>
-</div> 
-
-<div class=col-xs-2>
-
-</div> 
-<div class=col-xs-12> <p></p>
-</div>
-</div>
 <div class="advantages-class text-center" id=advantages> <h1>Specifications</h1> 
 
 <div> 
 
 <div class=advantage> 
 
-<div style="padding: 30px;"> <h4>3D printing technology: FDM/FFF</h4> <h4>Dimensions: 220*220*350mm</h4> <h4>Build volume: 3Litre+ (around 150*140*150mm)</h4> <h4>Maximal printing speed: ~150mm/s</h4> <h4>Software: custom (also works with standard g-code)</h4> <h4>Weight: ~6.5lbs/3kg (so expect low shipping costs)</h4><h4>Electronics: custom</h4> <h4>Filament type: standard 1.75mm filament, up to 185mm spool diameter</h4> <h4>Power consumption: &lt;60W, "power brick"</h4> <h4>Retail price:(TBA, $250 maximum, making it one of the cheapest printers on the market)</h4> <h4>Additional features: automatic calibration, out-of the box operation </h4>
+<div style="padding: 30px;"> <h4>3D printing technology: FDM/FFF</h4> <h4>Dimensions: 220*220*350mm</h4> <h4>Build volume: 3Litre+ (around 150*140*150mm)</h4> <h4>Maximal printing speed: ~150mm/s</h4> <h4>Software: custom (also works with standard g-code)</h4> <h4>Weight: ~6.5lbs/3kg (so expect low shipping costs)</h4> <h4>Filament type: standard 1.75mm filament, up to 185mm spool diameter</h4> <h4>Power consumption: &lt;60W, "power brick"</h4> <h4>Retail price:(TBA, $250 maximum, making it one of the cheapest printers on the market)</h4> <h4>Additional features: automatic calibration, out-of the box operation </h4>
 </div>
 </div>
 </div>
 </div> 
 
-<div class="row text-center" id=faq style="background-color: #ffffff;"> <h1>Q&A</h1> 
+<div class="row text-center" id=faq> <h1>Q&A</h1> 
 
 <div class=col-xs-3>
 </div> 
@@ -153,7 +137,6 @@
 <div class="panel-group col-xs-6 text-left"> 
 
 <div class="panel panel-default"> 
-
 
 <div class=panel-heading> <h4 class=panel-title> What is CARP? </h4>
 </div> 
@@ -241,6 +224,5 @@ var name="contact";var domain="carp3d.com";document.write('<a href=\"mailto:'+na
 <script>var h=window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight;if(document.getElementById("header").offsetHeight<h)
 document.getElementById("header").style.minHeight=h+"px";
 </script>
-
 </body>
 </html>

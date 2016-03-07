@@ -1,0 +1,844 @@
+html,
+body {
+    height: 100%;
+}
+.logo {
+    color: #f4511e;
+    font-size: 200px;
+}
+.logo-small {
+    color: #f4511e;
+    font-size: 50px;
+}
+.slideanim {
+    visibility: hidden;
+
+}
+.slide {
+    /* The name of the animation */
+    
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    /* The duration of the animation */
+    
+    animation-duration: 2s;
+    -webkit-animation-duration: 2s;
+    /* Make the element visible */
+    
+    visibility: visible;
+}
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+.slideanim2 {
+    visibility: hidden;
+}
+.slide2 {
+    /* The name of the animation */
+    
+    animation-name: slide2;
+    -webkit-animation-name: slide2;
+    /* The duration of the animation */
+    
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    
+    visibility: visible;
+}
+
+@keyframes slide2 {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-70%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+.row{
+	margin-right:0px;
+	margin-left:0px;
+
+}
+.nav {
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 0;
+    height: 50px;
+    vertical-align: middle;
+    display: block
+}
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px
+}
+.nav a {
+    z-index: 99999;
+    color: #ffffff;
+    font-size: 22px;
+    padding: 10px 30px 10px 30px;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+.nav li {
+    display: inline;
+}
+.nav li a:hover,
+.nav li.active a {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+}
+.navcontainer {
+    text-align: center;
+    vertical-align: middle;
+}
+.header {
+    postition: relative;
+    
+    background-attachment: fixed;
+    background-size: cover;
+ 	height: 100vh;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+background-position: center
+}
+
+.header .container {
+    position: relative;
+    top: 20px;
+    padding: 5vw;
+}
+.header h1 {
+    color: #FFFFFF;
+    font-size: 64px;
+    font-family: 'Shift', sans-serif;
+    font-weight: bold;
+}
+.subscribe {
+    width: 80%;
+    margin: auto;
+    position: relative;
+    vertical-align: middle;
+    font-size: 30px;
+    color: #444444;
+    align: center;
+}
+.subscribe2 {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    vertical-align: middle;
+    font-size: 30px;
+    color: #444444;
+    align: center;
+	padding:2vw;
+}
+
+.logoimage {
+    position: relative;
+    align: center;
+    vertical-align: middle;
+    padding-top: 40px;
+}
+.findoutmore {
+    width: 30%;
+    position: relative;
+    margin: auto;
+    width: 300px;
+    padding: 30px;
+    font-size: 30px;
+    color: #ffffff;
+    vertical-align: top;
+}
+.findoutmore a {
+    z-index: 99999;
+    color: #ffffff;
+    font-size: 22px;
+    padding: 5px 5px;
+    text-transform: uppercase;
+    vertical-align: bottom;
+}
+.details {
+    background-color: #FFFFFF;
+    width: 100%;
+    padding-bottom: 50px;
+    text-align: justified;
+}
+.details-class {
+    background-color: #FFFFFF;
+    width: 100%;
+    padding: 5vw;
+}
+.details h1 {
+    color: #000000;
+    font-size: 32px;
+    font-family: 'Shift', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.details h2 {
+    color: #444444;
+    font-size: 16px;
+    font-family: 'Shift', sans-serif;
+    font-weight: bold;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+.advantages-class {
+    background-image: url('content/CARP 3D open.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2vw;
+}
+.advantages-class h1 {
+    color: #ffffff;
+    font-size: 32px;
+    font-family: 'Shift', sans-serif;
+    font-weight: bold;
+}
+.advantage {
+    margin: 2vw;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+.advantages {
+    position: relative;
+    min-height: 1px;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    float: left;
+}
+.contact {
+    background-color: #FFFFFF;
+    width: 100%;
+    padding: 1vw;
+    align: center;
+    text-align: center;
+}
+.contact-sub{
+	display:inline-block;
+	width:40%;
+	margin:0;
+}
+.contact-class h1 {
+    color: #000000;
+    font-size: 36px;
+    font-family: 'Shift', sans-serif;
+    font-weight: bold;
+    padding: 20px;
+}
+.footer-class {
+    background-image: url('content/CARP 3D logo closeup.jpg');
+    background-attachment: fixed;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2vw;
+}
+.footer-content {
+    background color: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    width: 80%;
+    margin: auto;
+    paddig: 1vw;
+    text-align: center;
+}
+.copy {
+    color: #ffffff;
+    text-align: center;
+    font-size: 10px;
+    background-color: #444444;
+    width: 100%;
+}
+/*general css*/
+
+.general1 {
+    font-size: 16px;
+}
+.general2 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+}
+.text-left {
+    text-align: left
+}
+.text-right {
+    text-align: right
+}
+/* MailChimp Form Embed Code - Slim - 08/17/2011 */
+
+#mc_embed_signup form {
+    display: inline;
+    position: relative;
+    text-align: center;
+    padding: 10px 0 10px 3%;
+}
+#mc_embed_signup h2 {
+    font-weight: bold;
+    padding: 0;
+    margin: 15px 0;
+    font-size: 1.4em;
+}
+#mc_embed_signup input {
+    border: 1px solid #999;
+    -webkit-appearance: none;
+}
+#mc_embed_signup input[type=checkbox] {
+    -webkit-appearance: checkbox;
+}
+#mc_embed_signup input[type=radio] {
+    -webkit-appearance: radio;
+}
+#mc_embed_signup input:focus {
+    border-color: #333;
+}
+#mc_embed_signup .button {
+    clear: both;
+    background-color: #00E5E5;
+    border: 0 none;
+    border-radius: 4px;
+    color: #222222;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    height: 40px;
+    line-height: 32px;
+    margin: 0 5px 10px 0;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+    align: center;
+    white-space: nowrap;
+    width: auto;
+}
+#mc_embed_signup .button:hover {
+    background-color: #777;
+}
+#mc_embed_signup .small-meta {
+    font-size: 11px;
+}
+#mc_embed_signup .nowrap {
+    white-space: nowrap;
+}
+#mc_embed_signup .clear {
+    clear: none;
+    display: inline;
+}
+#mc_embed_signup label {
+    display: block;
+    font-size: 16px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+#mc_embed_signup input.email {
+    display: block;
+    padding: 8px 0;
+    margin: auto;
+    text-indent: 5px;
+    width: 40%;
+    min-width: 130px;
+    align: center;
+}
+#mc_embed_signup input.button {
+    display: block;
+    width: 35%;
+    margin: auto;
+    margin-top: 10px;
+    min-width: 90px;
+}
+#mc_embed_signup div#mce-responses {
+    top: -1.4em;
+    padding: 0em .5em 0em .5em;
+    overflow: hidden;
+    width: 90%;
+    margin: auto;
+    clear: both;
+}
+#mc_embed_signup div.response {
+    margin: 1em 0;
+    padding: 1em .5em .5em 0;
+    font-weight: bold;
+    float: left;
+    top: -1.5em;
+    z-index: 1;
+    width: 80%;
+}
+#mc_embed_signup #mce-error-response {
+    display: none;
+}
+#mc_embed_signup #mce-success-response {
+    color: #529214;
+    display: none;
+}
+#mc_embed_signup label.error {
+    display: block;
+    float: none;
+    width: auto;
+    margin-left: 1.05em;
+    text-align: left;
+    padding: .5em 0;
+}
+#mc_embed_signup {
+    clear: left;
+    font: 20px Helvetica, Arial, sans-serif;
+}
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a,
+#cssmenu #menu-button {
+z-index: 99999;
+  margin: auto;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#cssmenu:after,
+#cssmenu > ul:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+#cssmenu #menu-button {
+  display: none;
+}
+#cssmenu {
+  font-family: Montserrat, sans-serif;
+  background: rgba(0,0,0,0.6);
+ width: 100%;
+margin: auto;
+}
+#cssmenu > ul > li {
+  float: left;
+}
+#cssmenu.align-center > ul {
+  font-size: 0;
+  text-align: center;
+}
+#cssmenu.align-center > ul > li {
+  display: inline-block;
+  float: none;
+}
+#cssmenu.align-center ul ul {
+  text-align: left;
+}
+#cssmenu.align-right > ul > li {
+  float: right;
+}
+#cssmenu > ul > li > a {
+  padding: 17px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #dddddd;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+#cssmenu > ul > li:hover > a {
+  color: #ffffff;
+}
+#cssmenu > ul > li.has-sub > a {
+  padding-right: 30px;
+}
+#cssmenu > ul > li.has-sub > a:after {
+  position: fixed;
+  top: 22px;
+  right: 11px;
+  width: 8px;
+  height: 2px;
+  display: block;
+  background: #dddddd;
+  content: '';
+}
+#cssmenu > ul > li.has-sub > a:before {
+  position: absolute;
+  top: 19px;
+  right: 14px;
+  display: block;
+  width: 2px;
+  height: 8px;
+  background: #dddddd;
+  content: '';
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+#cssmenu > ul > li.has-sub:hover > a:before {
+  top: 23px;
+  height: 0;
+}
+#cssmenu ul ul {
+  position: absolute;
+  left: -9999px;
+}
+#cssmenu.align-right ul ul {
+  text-align: right;
+}
+#cssmenu ul ul li {
+  height: 0;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+#cssmenu li:hover > ul {
+  left: auto;
+}
+#cssmenu.align-right li:hover > ul {
+  left: auto;
+  right: 0;
+}
+#cssmenu li:hover > ul > li {
+  height: 35px;
+}
+#cssmenu ul ul ul {
+  margin-left: 100%;
+  top: 0;
+}
+#cssmenu.align-right ul ul ul {
+  margin-left: 0;
+  margin-right: 100%;
+}
+#cssmenu ul ul li a {
+  border-bottom: 1px solid rgba(150, 150, 150, 0.15);
+  padding: 11px 15px;
+  width: 170px;
+  font-size: 12px;
+  text-decoration: none;
+  color: #dddddd;
+  font-weight: 400;
+  background: #333333;
+}
+#cssmenu ul ul li:last-child > a,
+#cssmenu ul ul li.last-item > a {
+  border-bottom: 0;
+}
+#cssmenu ul ul li:hover > a,
+#cssmenu ul ul li a:hover {
+  color: #ffffff;
+}
+#cssmenu ul ul li.has-sub > a:after {
+  position: absolute;
+  top: 16px;
+  right: 11px;
+  width: 8px;
+  height: 2px;
+  display: block;
+  background: #dddddd;
+  content: '';
+}
+#cssmenu.align-right ul ul li.has-sub > a:after {
+  right: auto;
+  left: 11px;
+}
+#cssmenu ul ul li.has-sub > a:before {
+  position: absolute;
+  top: 13px;
+  right: 14px;
+  display: block;
+  width: 2px;
+  height: 8px;
+  background: #dddddd;
+  content: '';
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+#cssmenu.align-right ul ul li.has-sub > a:before {
+  right: auto;
+  left: 14px;
+}
+#cssmenu ul ul > li.has-sub:hover > a:before {
+  top: 17px;
+  height: 0;
+}
+@media all and (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), 
+
+only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and 
+
+(max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
+  #cssmenu {
+    width: 100%;
+  }
+  #cssmenu ul {
+    width: 100%;
+    display: none;
+  }
+  #cssmenu.align-center > ul {
+    text-align: left;
+  }
+  #cssmenu ul li {
+    width: 100%;
+    border-top: 1px solid rgba(120, 120, 120, 0.2);
+  }
+  #cssmenu ul ul li,
+  #cssmenu li:hover > ul > li {
+    height: auto;
+  }
+  #cssmenu ul li a,
+  #cssmenu ul ul li a {
+    width: 100%;
+    border-bottom: 0;
+  }
+  #cssmenu > ul > li {
+    float: none;
+  }
+  #cssmenu ul ul li a {
+    padding-left: 25px;
+  }
+  #cssmenu ul ul ul li a {
+    padding-left: 35px;
+  }
+  #cssmenu ul ul li a {
+    color: #dddddd;
+    background: none;
+  }
+  #cssmenu ul ul li:hover > a,
+  #cssmenu ul ul li.active > a {
+    color: #ffffff;
+  }
+  #cssmenu ul ul,
+  #cssmenu ul ul ul,
+  #cssmenu.align-right ul ul {
+    position: relative;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    text-align: left;
+  }
+  #cssmenu > ul > li.has-sub > a:after,
+  #cssmenu > ul > li.has-sub > a:before,
+  #cssmenu ul ul > li.has-sub > a:after,
+  #cssmenu ul ul > li.has-sub > a:before {
+    display: none;
+  }
+  #cssmenu #menu-button {
+    display: block;
+    padding: 17px;
+    color: #dddddd;
+    cursor: pointer;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  #cssmenu #menu-button:after {
+    position: absolute;
+    top: 22px;
+    right: 17px;
+    display: block;
+    height: 4px;
+    width: 20px;
+    border-top: 2px solid #dddddd;
+    border-bottom: 2px solid #dddddd;
+    content: '';
+  }
+  #cssmenu #menu-button:before {
+    position: absolute;
+    top: 16px;
+    right: 17px;
+    display: block;
+    height: 2px;
+    width: 20px;
+    background: #dddddd;
+    content: '';
+  }
+  #cssmenu #menu-button.menu-opened:after {
+    top: 23px;
+    border: 0;
+    height: 2px;
+    width: 15px;
+    background: #ffffff;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  #cssmenu #menu-button.menu-opened:before {
+    top: 23px;
+    background: #ffffff;
+    width: 15px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  #cssmenu .submenu-button {
+    position: absolute;
+    z-index: 99;
+    right: 0;
+    top: 0;
+    display: block;
+    border-left: 1px solid rgba(120, 120, 120, 0.2);
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+  }
+  #cssmenu .submenu-button.submenu-opened {
+    background: #262626;
+  }
+  #cssmenu ul ul .submenu-button {
+    height: 34px;
+    width: 34px;
+  }
+  #cssmenu .submenu-button:after {
+    position: absolute;
+    top: 22px;
+    right: 19px;
+    width: 8px;
+    height: 2px;
+    display: block;
+    background: #dddddd;
+    content: '';
+  }
+  #cssmenu ul ul .submenu-button:after {
+    top: 15px;
+    right: 13px;
+  }
+  #cssmenu .submenu-button.submenu-opened:after {
+    background: #ffffff;
+  }
+  #cssmenu .submenu-button:before {
+    position: absolute;
+    top: 19px;
+    right: 22px;
+    display: block;
+    width: 2px;
+    height: 8px;
+    background: #dddddd;
+    content: '';
+  }
+  #cssmenu ul ul .submenu-button:before {
+    top: 12px;
+    right: 16px;
+  }
+  #cssmenu .submenu-button.submenu-opened:before {
+    display: none;
+  }
+}
+.carousel-fade .carousel-inner .item {
+    opacity: 0;
+    transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active {
+    opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    left: 0;
+    opacity: 0;
+    z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+}
+.carousel-fade .carousel-control {
+    z-index: 2;
+}
+@media all and (transform-3d),
+(-webkit-transform-3d) {
+    .carousel-fade .carousel-inner > .item.next,
+    .carousel-fade .carousel-inner > .item.active.right {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.prev,
+    .carousel-fade .carousel-inner > .item.active.left {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.next.left,
+    .carousel-fade .carousel-inner > .item.prev.right,
+    .carousel-fade .carousel-inner > .item.active {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+.item:nth-child(1) {
+    background: url(content/first.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.item:nth-child(2) {
+    background: url(content/second.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.item:nth-child(3) {
+    background: url(content/third.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.carousel {
+    z-index: -99;
+}
+.carousel .item {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+.title {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  text-shadow: 2px 2px #000;
+  color: #FFF;
+}
